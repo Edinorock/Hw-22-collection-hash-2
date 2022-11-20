@@ -1,4 +1,8 @@
 import java.util.*;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Random;
+import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,5 +21,8 @@ public class Main {
             }
         }
         System.out.println(numbers);
+        MultiplicationTable multiplicationTable = new MultiplicationTable();
+        System.out.println(multiplicationTable);
+
     }
 }
